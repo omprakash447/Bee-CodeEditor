@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bee code</title>
+    <script src="https://kit.fontawesome.com/f7169cb9df.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Bee.css">
+</head>
+
+<body>
+    <h1 id="hhhh">Bee Code Editor</h1>
+    <div class="container">
+
+        <div class="left">
+            <label><i class="fa-brands fa-html5"></i> Html</label>
+            <textarea id="htmlcode" onkeyup="run()"></textarea>
+
+            <label><i class="fa-brands fa-css3-alt"></i> Css</label>
+            <textarea id="csscode" onkeyup="run()"></textarea>
+
+            <label><i class="fa-brands fa-js"></i> Js</label>
+            <textarea id="jscode" onkeyup="run()"></textarea>
+
+        </div>
+        <div class="right">
+            <label><i class="fa-solid fa-play"></i> Output</label>
+            <iframe id="output"></iframe>
+
+        </div>
+    </div>
+
+</body>
+<script src="Bee.js">
+</script>
+
+</html>
